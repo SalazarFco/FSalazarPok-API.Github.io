@@ -1,34 +1,66 @@
 <!DOCTYPE html>
+
+<!-- Creado por: Francisco Antonio Salazar Candia
+     Fecha: 11-06-2024
+s -->
+
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, initial-scale=1.0">
-    <title>Buscar Pokémon</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FSPokeAPI</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
-    <link rel="stylesheet" href="assets/css/styles.css">
-    <script type="text/javascript" src="assets/js/code.js"> </script>
-</head>
-<body>
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script type="text/javascript" src="assets/js/code.js"></script>
+  </head>
+  <body>
     <div class="content">
-        <h1>
-            <img id="Imagenprimera" src="assets/img/pokeapi.png" alt="No disponible" width="200" height="100">
-        </h1>
-        <form id="pokemonForm" style="text-align: center;">
-            <label for="pokemonNombre">Nombre del Pokémon:</label>
-            <input type="text" id="pokemonNombre" name="pokemonNombre" required="required" />
-            <button type="submit" class="btn btn-primary">Buscar</button>
-        </form>
-        <div id="resultado"></div>
+      <h1>
+        <img
+          id="Imagenprimera"
+          src="assets/img/pokeapi.png"
+          alt="No disponible"
+          width="200"
+          height="100"
+        />
+      </h1>
+      <form id="pokemonForm" style="text-align: center">
+        <label for="pokemonNombre">Nombre del Pokémon:</label>
+        <input
+          type="text"
+          id="pokemonNombre"
+          name="pokemonNombre"
+          required="required"
+        />
+        <button type="submit" class="btn btn-primary">Buscar</button>
+      </form>
+      <div id="Resultado"></div>
     </div>
     <footer class="footer">
-        <div class="container">
-            <p>Sígueme en mis redes sociales:</p>
-            <a href="https://github.com/SalazarFco" target="_blank" class="text-white mx-2"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png" alt="GitHub"/></a>
-            <a href="https://www.linkedin.com/" target="_blank" class="text-white mx-2"><img src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png" alt="LinkedIn"/></a>
-        </div>
+      <div class="container">
+        <p>Sígueme en mis redes sociales</p>
+        <a
+          href="https://github.com/SalazarFco"
+          target="_blank"
+          class="text-white mx-2"
+          ><img
+            src="https://img.icons8.com/ios-glyphs/30/ffffff/github.png"
+            alt="GitHub"
+        /></a>
+        <a
+          href="https://www.linkedin.com/in/francisco-salazar-candia-0305a7270/"
+          target="_blank"
+          class="text-white mx-2"
+          ><img
+            src="https://img.icons8.com/ios-glyphs/30/ffffff/linkedin.png"
+            alt="LinkedIn"
+        /></a>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
