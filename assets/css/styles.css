@@ -1,11 +1,17 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
 }
 body {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(200,179,215,1) 47%, rgba(148,187,233,1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(200, 179, 215, 1) 47%,
+    rgba(148, 187, 233, 1) 100%
+  );
 }
 .content {
   flex: 1;
@@ -20,23 +26,23 @@ body {
 .pokemon-info img {
   margin-right: 20px;
 }
-.pokemon-info-details {
+.PokemonCardPrimera {
   display: flex;
   flex-direction: column;
 }
-.pokemon-info-details p {
-  margin: 5px 0;
-}
-/* Estilo para la primera tarjeta */
-#pokemonCard.card {
+
+/* Primera Card */
+#pokemonCard1.card {
   background-color: lightblue;
   margin: 20px 20px 20px 20px;
 }
-/* Estilo para la segunda tarjeta */
-#chartCard.card {
+/* Segunda Card*/
+#pokemonCard2.card {
   background-color: lightgreen;
   margin: 20px 20px 20px 20px;
 }
+
+/* Primera imagen*/
 #Imagenprimera {
   display: block;
   margin: 20px auto;
