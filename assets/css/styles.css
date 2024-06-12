@@ -1,0 +1,51 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(200,179,215,1) 47%, rgba(148,187,233,1) 100%);
+}
+.content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.pokemon-info {
+  display: flex;
+  align-items: center;
+}
+.pokemon-info img {
+  margin-right: 20px;
+}
+.pokemon-info-details {
+  display: flex;
+  flex-direction: column;
+}
+.pokemon-info-details p {
+  margin: 5px 0;
+}
+/* Estilo para la primera tarjeta */
+#pokemonCard.card {
+  background-color: lightblue;
+  margin: 20px 20px 20px 20px;
+}
+/* Estilo para la segunda tarjeta */
+#chartCard.card {
+  background-color: lightgreen;
+  margin: 20px 20px 20px 20px;
+}
+#Imagenprimera {
+  display: block;
+  margin: 20px auto;
+}
+.footer {
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
