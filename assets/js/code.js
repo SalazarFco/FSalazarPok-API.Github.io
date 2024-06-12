@@ -82,7 +82,7 @@ $(document).ready(function () {
 
                                         
                                     </div>
-                                    <p>Pokédex: <span id="Pokedex"></span></p>
+                                    <p><strong>Pokédex:</strong> <span id="Pokedex"></span></p>
                                 </div>
                             </div>
                         </div>
