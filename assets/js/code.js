@@ -94,7 +94,7 @@ $(document).ready(function () {
                     </div>
                 `);
 
-        // Ahora haces una solicitud adicional para obtener los detalles de la especie
+        // Otra solicitud para la pokedex
         $.ajax({
           url: data.species.url,
           type: "GET",
@@ -105,9 +105,9 @@ $(document).ready(function () {
             $("#Pokedex").text(description);
           },
           error: function (xhr, status, error) {
-            resultado
-              .find(".pokemon-info-details")
-              .append("<p>Error al obtener la descripción de la Pokédex</p>");
+            Resultado.find(".pokemon-info-details").append(
+              "<p>Error al obtener la descripción de la Pokédex</p>"
+            );
           },
         });
 
@@ -146,8 +146,8 @@ $(document).ready(function () {
         chart.render();
       },
       error: function (xhr, status, error) {
-        var resultado = $("#resultado");
-        resultado.html(
+        var Resultado = $("#Resultado");
+        Resultado.html(
           '<div class="alert alert-danger" role="alert">Pokémon no encontrado. Por favor, verifica el nombre e intenta de nuevo.</div>'
         );
       },
